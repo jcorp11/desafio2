@@ -4,7 +4,7 @@ body{
     }
 
 header.header{
-    height: 10em;
+    height: 100px;
     padding: 5em;
     font-size: 2rem;
     background-image: url(../imgs/header.jpeg);
@@ -46,7 +46,17 @@ img{
     height: 3em;
     line-height: 3em;
     background-color: rgb(42, 41, 39);
-    color: white;
     text-align: center;
     font-weight: 900;
+
+}
+
+.footer p {
+    background-color: rgb(42, 41, 39);
+    margin: 0;
+    color: antiquewhite;
+    /* advanced sintax */
+    && a{ 
+        color: antiquewhite;
+    }
 }
